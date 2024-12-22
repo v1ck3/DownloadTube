@@ -126,10 +126,14 @@ The video will begin downloading in the chosen format and quality.
 ## Project Structure 📂
 
 DownloadTube/
+
 │
 ├── DownloadTube.py       # Main Python script for video download
+
 ├── requirements.txt          # List of dependencies
+
 ├── README.md                 # Project documentation (this file)
+
 └── venv/                     # Virtual environment (created automatically)
 
 ### `requirements.txt`
