@@ -19,7 +19,7 @@ def download_video(url, download_path='.'):
             'format': 'bestvideo+bestaudio/best',            # Get the best quality video and audio
             'postprocessors': [{
                 'key': 'FFmpegVideoConvertor',                # Use FFmpeg for conversion
-                'preferredformat': 'mp4',                     # Convert to mp4
+                'preferedformat': 'mp4',                     # Convert to mp4
             }],
         }
 
